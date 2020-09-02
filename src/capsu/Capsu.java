@@ -15,7 +15,8 @@ public class Capsu {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Encapsulamiento
+        
         Mesa m1;
         m1 = new Mesa();
         
@@ -24,9 +25,13 @@ public class Capsu {
         m1.setLargo(250);
         
         
+        System.out.println("Mesa: ");
+        
         System.out.println("Ancho " + m1.getAncho());
         
+        
         System.out.println("Largo " + m1.getLargo());
+        
         
         
         
